@@ -23,7 +23,7 @@ import { ZipCode } from '../remote-models/zip-code-model';
 
 export class RemoteDbService {
   // FIXME: Endopint change for local testing
-  endpoint:string = 'http://127.0.0.1:5000'
+  endpoint:string = 'https://jce-flask-02.herokuapp.com'
   headers:{}
   token:string
 
